@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+body{
+    background-color: whitesmoke;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'JetBrains Mono';
+}
+
+header{
+    background-color: black;
+    color: green;
+    padding: 5px 100px;
+}
+.wall{
+    background-image: url(wall.jpg);
+    height: 100vh;
+    width: 100vw;
+    padding-left: 50px;
+    padding-top: 200px;
+}
+.left h1{
+    padding-top: 100px;
+    justify-content: center;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.search input{
+    padding-left: 30px;
+    border-radius: 5px;
+    width: 30vw;
+    height: 5vh;
+    size: 50px;
+    border-color: pink;
+    font-family: 'Open Sans';
+
+}
+.search button{
+    color: white;
+    padding: 5px 10px;
+    background-color: black;
+    border-radius: 5px;
+    width: 10vw;
+    height: 5vh;
+    border-color: green;    
+
+}
+
+
+
