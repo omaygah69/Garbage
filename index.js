@@ -1,5 +1,11 @@
+let jimmyEatAllThePizza = document.getElementById("jimmy");
+jimmyEatAllThePizza.style.backgroundImage =
+  "linear-gradient(to bottom, #000000dd, transparent)";
+jimmyEatAllThePizza.style.backgroundColor = "transparent";
+jimmyEatAllThePizza.style.backdropFilter = "none";
+jimmyEatAllThePizza.style.filter = "none";
+
 window.onscroll = () => {
-  let jimmyEatAllThePizza = document.getElementById("jimmy");
   if (window.scrollY > 0) {
     jimmyEatAllThePizza.style.backgroundColor = "rgba(59, 59, 59, 0.3)";
     jimmyEatAllThePizza.style.backdropFilter = "blur(16px)";
