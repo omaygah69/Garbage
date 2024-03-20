@@ -20,3 +20,16 @@ window.onscroll = () => {
   }
   console.log(window.scrollY);
 };
+
+const adobo = document.getElementById("adobo");
+const adobo2 = document.getElementById("adobo2");
+
+adobo.onmouseover = () => {
+  adobo2.style.display = "block";
+  adobo2.style.backdropFilter = "blur(32px)";
+  adobo2.style.filter = "brightness(120%)";
+};
+
+adobo.onmouseleave = () => {
+  adobo2.style.display = "none";
+};
