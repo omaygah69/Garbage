@@ -137,21 +137,13 @@ body{
     padding-right: 50px;
 }
 
-.right h1{
-    color: white;
-    margin: 10px;
-}
-
 .right a{
     color: white;
     text-decoration: none;
+    font-size: 25px;
 }
 
 .right a:hover{
-    color: crimson;
-}
-
-.right h1:hover{
     color: crimson;
 }
 
