@@ -147,7 +147,13 @@ body{
     text-decoration: none;
 }
 
+.right a:hover{
+    color: crimson;
+}
 
+.right h1:hover{
+    color: crimson;
+}
 
 /* containers */
 .content_main {

@@ -95,6 +95,6 @@ display: inline-block;
   }
   
   .navbar a:hover {
-    background-color: #f0f0f0; 
-  }
+    color: crimson;
+}
 
