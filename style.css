@@ -65,6 +65,7 @@ body{
     outline: black;
 }
 .search input{
+    flex-direction: column;
     padding-left: 30px;
     border-radius: 10px;
     width: 30vw;
@@ -133,5 +134,89 @@ body{
 .right {
     display: flex;
     align-items: center;
+    padding-right: 50px;
+}
+
+.right h1{
     color: white;
+    margin: 10px;
+}
+
+.right a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* containers */
+.content_main {
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 60px; 
+    background-color: #f9f9f9;
+    border: 2px solid #ddd; 
+    border-radius: 15px; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container img {
+    max-width: 600px; 
+    height: auto;
+    border-radius: 15px; 
+    margin-right: 60px; 
+}
+
+.description {
+    flex: 1;
+}
+
+.description h1 {
+    font-size: 48px; 
+    margin-top: 0;
+    margin-bottom: 30px; 
+}
+
+.description h3 {
+    font-size: 24px; 
+    line-height: 1.8; 
+    margin-top: 0;
+    margin-bottom: 40px; 
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    margin-top: 69px;
+}
+
+.container2 img {
+    max-width: 600px; 
+    height: auto;
+    border-radius: 15px; 
+    margin-left: 60px; 
+}
+
+.description2 {
+    flex: 1;
+}
+
+.description2 h1 {
+    font-size: 48px; 
+    margin-top: 0;
+    margin-bottom: 30px; 
+}
+
+.description2 h3 {
+    font-size: 24px; 
+    line-height: 1.8; 
+    margin-top: 0;
+    margin-bottom: 40px; 
 }
