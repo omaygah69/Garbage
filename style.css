@@ -163,6 +163,7 @@ body{
     display: flex;
     align-items: center;
     /* padding-right: 50px; */
+    /* mix-blend-mode: ; */
 }
 
 .right a{
@@ -283,7 +284,8 @@ body{
     }
 
     .container2 {
-        flex-direction: column;
+        /* display: flex; */
+        flex-direction: column-reverse;
     }
 
     .container2 img {
