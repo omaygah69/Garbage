@@ -48,13 +48,28 @@ body{
 
 .content button{
     color: white;
-    padding: px 10px;
+    padding: 0 10px;
     background-color: black;
     border-radius: 10px;    
-    width: 10vw;
+    /* width: 100%; */
+    width: max-content;
     height: 5vh;
-    border-color: green;    
+    border-color: green;
+}
 
+@media screen and (max-width: 600px) {
+    .card {
+        border-radius: 20px;
+    }
+    .content h3, p {
+        margin-top: 0;
+    }
+    .content button{
+        width: 100%;
+        height: max-content;
+        padding: 10px 0px;
+    }
+    
 }
 .content button:hover{
     background-color: green;
@@ -72,29 +87,31 @@ body{
 }
 /* Navbar styles */
 .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: white; 
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); 
     padding: 10px 20px;
 }
   
 .navbar-div {
-display: inline-block;
+    display: inline-block;
 }
-  
-  .navbar-right {
+.navbar-right {
     float: right;
-    margin-right: 20px;
-  }
-  
-  .navbar a {
+}
+.navbar a {
     display: inline-block;
     color: black; 
     text-decoration: none; 
-    margin-left: 20px; 
     font-size: 20px;
-  }
+}
   
-  .navbar a:hover {
+.navbar a:hover {
     color: crimson;
 }
 
+.b {
+    display: none;
+}

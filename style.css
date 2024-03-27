@@ -35,7 +35,7 @@ body{
     gap: 0 1rem;
     color: #e12301;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     .jimmy {
         padding: 1rem;
     }
@@ -170,10 +170,8 @@ body{
     color: white;
     text-decoration: none;
     font-size: 25px;
-    margin-right: 1rem;
-
 }
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .right {
         padding-right: 0;
     }
@@ -261,11 +259,7 @@ body{
     margin-bottom: 40px; 
 }
 
- /*  */
-
- /* Example */
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     .main {
         background-color: #f9f9f9;
     }
